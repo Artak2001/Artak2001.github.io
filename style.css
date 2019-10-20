@@ -4,6 +4,10 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
 /*basic*/
+body, html{
+	padding: 0px;
+	margin: 0px;
+}
 a{
 	color: inherit;
 	text-decoration: none;
