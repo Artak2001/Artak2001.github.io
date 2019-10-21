@@ -7,10 +7,6 @@ font-family: 'Open Sans', sans-serif;
 html{
 	position: absolute;
 }
-body{
-	padding: 0px;
-	margin: 0px;
-}
 a{
 	color: inherit;
 	text-decoration: none;
