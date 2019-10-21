@@ -4,7 +4,8 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
 /*basic*/
-body, html{
+html{
+	position: absolute;
 	padding: 0px;
 	margin: 0px;
 }
