@@ -6,6 +6,8 @@ font-family: 'Open Sans', sans-serif;
 /*basic*/
 html{
 	position: absolute;
+}
+body{
 	padding: 0px;
 	margin: 0px;
 }
