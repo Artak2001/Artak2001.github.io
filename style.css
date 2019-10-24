@@ -156,6 +156,7 @@ header>a{
 	display: flex;
 	justify-content: space-around;
 	margin: 120px 0;
+	position: relative;
 }
 .car{
 	position: relative;
@@ -171,7 +172,6 @@ header>a{
 }
 .section1>.car>img{
 	height: 315px;
-	position: relative;
 }
 #s1{
 	left: -50px;
