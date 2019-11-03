@@ -30,7 +30,7 @@ header{
 }
 .background>.img-box>p{
     position: absolute;
-    bottom: 20vh;
+    bottom: 12vh;
 }
 .point_box{
     right: calc( 50vw - 0.9rem / 2 ) ;
