@@ -71,6 +71,7 @@ header{
 }
 header>a{
 	margin-left: 3vw;
+	align-self: center;
 }
 
 .btn:hover{
@@ -109,7 +110,7 @@ header>a{
 	flex-direction: column;
 	position: absolute;
 	right: 1vw;
-	top: 48vh;
+	top: calc( 50vh - 6rem / 2);
 }
 .point_box>.point{
 	height: 0.9rem;
@@ -480,7 +481,7 @@ header>a{
 
 .section4>.background{
 	background: #135ec5;
-	height: 43%;
+	height: 44%;
 	width: 100%;
 	position: absolute;
 	z-index: -1;
@@ -488,10 +489,9 @@ header>a{
 }
 
 .section4{
-	
 	position: relative;
 	width: 90%;
-	height: 86rem;
+	padding-bottom: 12rem;
 	margin: 0 auto;
 	box-shadow: 0px 0px 2.5rem rgba(0, 0, 0, 0.05);
 	margin-bottom: 10rem;
