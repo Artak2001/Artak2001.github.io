@@ -47,7 +47,7 @@ header>.container>a>.btn{
     bottom: 12vh;
 }
 .point_box{
-    right: calc( 50vw - 0.9rem / 2 ) ;
+    right: calc( 50vw - 6rem / 2 ) ;
     top: 70vh;
     width: 6rem;
     flex-direction: row;
