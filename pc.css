@@ -1,11 +1,12 @@
 /* @media screen and (min-width: 1024px){
 	body{
 	background: blue;
-}}
+}} */
 /* basic */
 
 html{
-    font-size: 4.2px;
+    font-size: 8px;
+    background: red;
 }
 
 /* header */
@@ -17,9 +18,6 @@ header{
 }
 .container{
     width: 35%;
-}
-.container>.box{
-    display: none;
 }
 header>.container>a>.btn{
 	position: absolute;
@@ -65,8 +63,7 @@ header>.container>a>.btn{
 }
 .mark-list>.list>a{
     display: inline-block;
-    margin: 6.5%;
-    margin-bottom: 0;
+    flex-basis: 21%;
     text-align: center;
     margin-top: 5rem;
 }
@@ -77,8 +74,7 @@ header>.container>a>.btn{
 }
 .marklist>.list>a{
     display: inline-block;
-    margin: 6.5%;
-    margin-bottom: 0;
+    flex-basis: 21%;
     text-align: center;
     margin-top: 5rem;
 }
@@ -88,11 +84,8 @@ header>.container>a>.btn{
 .section1>.car{
     width: 100vw;
 }
-.section1>.car>span{
-    display: none;  
-}
 .section1>.car>img{
-    width: 78vw;
+    width: 80vw;
     height: auto !important;
 }
 .section1>.info>p{
@@ -104,70 +97,6 @@ header>.container>a>.btn{
 	padding-top: 3rem;
     width: 100vw;
     text-align: center;
-}
-
-/* section2 */
-
-.section2>.col1>h2{
-    font-size: 4.5rem;
-}
-.section2>.col1>img{
-    transform: scale(0.8);
-}
-
-/* section3 */
-.section3>.container1>.box2{
-   width: 75%;
-   height: 35vh;
-   flex-direction: column;
-   margin-top: 0;
-   position: relative;
-}
-.section3>.container1>.box2>.col1{
-    height: 80%;
-}
-.box2>.col1>h2{
-    margin-top: 5rem;
-    text-align: center;
-}
-.box2>.col1>p{
-    width: 100%;
-}
-.section3>.container1>.box2>.col2>.btn:hover{
-    animation: hideb 100s;
-
-
-}
-.section3>.container1>.box2>.col2{
-    position: static;
-}
-@keyframes hideb{
-    2%{
-        opacity: 1;
-    }
-}
-.section3>.container1>.box2>.col2>.point-box{
-    bottom: 5.5rem;
-    
-}
-.section3>.container1>.box2>.col2>img{
-    opacity: 0;
-    right: 0 !important;
-    width: 100%;
-    height: auto !important;
-}
-.section3>.container1>.box2>.col2>img:hover{
-    animation: hideb 100s;
-}
-.col2>a{
-    width: 0;
-    line-height: 11rem;
-    margin-left: 3rem;
-}
-.col2>a>.btn{
-    position: static;
-    display: inline;
-    font-size: 3rem;
 }
 
 /* section4 */
