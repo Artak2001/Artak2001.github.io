@@ -7,8 +7,15 @@
 html{
     font-size: 4.2px;
 }
-
 /* header */
+
+#test{
+    font-size: 16px;
+    position: fixed;
+    color: red;
+    text-align: center;
+    width: 100%;
+}
 
 header{
 	position: relative;
@@ -45,6 +52,7 @@ header>.container>a>.btn{
 .background>.img-box>p{
     position: absolute;
     bottom: 12vh;
+    font-size: 2.5rem;
 }
 .point_box{
     right: calc( 50vw - 6rem / 2 ) ;
@@ -55,6 +63,12 @@ header>.container>a>.btn{
 .point{
     margin: 0 0.5rem !important;
 }
+.bottom-nav>p{
+    font-size: 4rem;
+}
+.bottom-nav>a>.btn{
+    font-size: 2rem;
+}
 
 /* mark-list */
 
@@ -62,6 +76,9 @@ header>.container>a>.btn{
     flex-wrap: wrap;
     margin: 0;
     margin-bottom: 5rem;
+}
+.mark-list>h3{
+    font-size: 2.5rem;
 }
 .mark-list>.list>a{
     display: inline-block;
@@ -89,15 +106,11 @@ header>.container>a>.btn{
     width: 100vw;
 }
 .section1>.car>span{
-    display: none;  
+    display: none;
 }
 .section1>.car>img{
     width: 78vw;
     height: auto !important;
-}
-.section1>.info>p{
-    width: 80vw;
-     margin: 0 auto;
 }
 .section1>.info{
 	padding: 0;
@@ -105,9 +118,21 @@ header>.container>a>.btn{
     width: 100vw;
     text-align: center;
 }
+.section1>.info>p{
+    width: 80vw;
+     margin: 0 auto;
+     font-size: 2.5rem;
+     
+}
 
 /* section2 */
-
+#p1{
+    font-size: 1.5rem;
+}
+#p2{
+    font-size: 2.2rem;
+    margin-bottom: 5rem;
+}
 .section2>.col1>h2{
     font-size: 4.5rem;
 }
@@ -116,12 +141,11 @@ header>.container>a>.btn{
 }
 
 /* section3 */
+
 .section3>.container1>.box2{
-   width: 75%;
-   height: 35vh;
-   flex-direction: column;
+   width: 85%;
+   height: 33vh;
    margin-top: 0;
-   position: relative;
 }
 .section3>.container1>.box2>.col1{
     height: 80%;
@@ -131,43 +155,21 @@ header>.container>a>.btn{
     text-align: center;
 }
 .box2>.col1>p{
-    width: 100%;
+    margin-bottom: 4.5rem;
+    font-size: 2rem;
+    overflow: scroll;
 }
-.section3>.container1>.box2>.col2>.btn:hover{
-    animation: hideb 100s;
-
-
-}
-.section3>.container1>.box2>.col2{
-    position: static;
-}
-@keyframes hideb{
-    2%{
-        opacity: 1;
-    }
+#s3{
+    font-size: 1.7rem;
 }
 .section3>.container1>.box2>.col2>.point-box{
     bottom: 5.5rem;
     
 }
 .section3>.container1>.box2>.col2>img{
-    opacity: 0;
-    right: 0 !important;
-    width: 100%;
-    height: auto !important;
-}
-.section3>.container1>.box2>.col2>img:hover{
-    animation: hideb 100s;
-}
-.col2>a{
-    width: 0;
-    line-height: 11rem;
-    margin-left: 3rem;
-}
-.col2>a>.btn{
-    position: static;
-    display: inline;
-    font-size: 3rem;
+  height: 28rem;
+  right: -25rem;
+  top: 13rem;
 }
 
 /* section4 */

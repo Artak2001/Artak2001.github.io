@@ -227,6 +227,7 @@ header>a>img{
 	font-family: 'Open Sans', sans-serif;
 	color: gray;
 	font-size: 1.6rem;
+	text-align: justify;
 }
 .info>h2{
 	font-size: 6rem;
