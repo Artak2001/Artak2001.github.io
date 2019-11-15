@@ -150,38 +150,36 @@ header>a>img{
 	background: #002f6e;
 }
 /*mark-list*/
-.mark-list>{
-	
-}
-.mark-list>h3{
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	margin-top: 5rem;
-	font-size: 1.5rem;
-}
+
 .list{
 	display: flex;
 	justify-content: space-around;
-	margin-top: 5rem;
-	margin-bottom: 5rem;
+	margin: 3rem 0;
 }
-.list>a>img{
+.mark-list>h3{
+	font-size: 2rem;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-top: 3rem;
+}
+.list>.mark-box>a>img{
 	opacity: 0.6;
 	height: 6rem;
 	transition: 0.4s;
 }
-.list>a>img:hover{
+.list>.mark-box>a>img:hover{
 	opacity: 1;
 }
-.list>a:nth-child(2){
+.mark-box:nth-child(2)>a>img{
 	transform: scale(0.9)!important;
 }
-.list>a:nth-child(4){
+.mark-box:nth-child(4)>a>img{
 	transform: scale(1.2)!important;
 }
-.list>a:nth-child(5),.list>a:nth-child(6),.list>a:nth-child(8n){
+.mark-box:nth-child(5)>a>img,.mark-box:nth-child(6)>a>img,.mark-box:nth-child(8)>a>img{
 	transform: scale(1.1)!important;
 }
+
 /*section1*/
 
 .section1{

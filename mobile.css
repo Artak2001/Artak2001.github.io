@@ -52,6 +52,12 @@ header>.container>a>.btn{
     width: 6rem;
     flex-direction: row;
 }
+@media only screen and (max-height: 600px){
+.point_box{
+    top: 77vh;
+}
+}
+
 .point{
     margin: 0 0.5rem !important;
 }
@@ -64,32 +70,15 @@ header>.container>a>.btn{
 
 /* mark-list */
 
-.mark-list>.list{
+.list{
+    display: flex;
     flex-wrap: wrap;
-    margin: 0;
-    margin-bottom: 5rem;
+    margin-top: 0;
 }
-.mark-list>h3{
-    font-size: 2.5rem;
-}
-.mark-list>.list>a{
-    display: inline-block;
-    margin: 6.5%;
-    margin-bottom: 0;
+.list>.mark-box{
+    flex-basis: 25%;
     text-align: center;
-    margin-top: 5rem;
-}
-.marklist>.list{
-    flex-wrap: wrap;
-    margin: 0;
-    margin-bottom: 5rem;
-}
-.marklist>.list>a{
-    display: inline-block;
-    margin: 6.5%;
-    margin-bottom: 0;
-    text-align: center;
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 
 /* section1 */
@@ -173,8 +162,8 @@ header>.container>a>.btn{
     
 }
 .section3>.container1>.box2>.col2>img{
-  height: 56%;
-  left: -30%;
+  max-height: 56%;
+  left: -35%;
   top: 13rem;
 }
 
