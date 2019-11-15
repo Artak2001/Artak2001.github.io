@@ -9,14 +9,6 @@ html{
 }
 /* header */
 
-#test{
-    font-size: 16px;
-    position: fixed;
-    color: red;
-    text-align: center;
-    width: 100%;
-}
-
 header{
 	position: relative;
     padding: 0;
@@ -143,32 +135,46 @@ header>.container>a>.btn{
 /* section3 */
 
 .section3>.container1>.box2{
-   width: 85%;
-   height: 33vh;
+   width: 85vw;
+   height: 50rem;
    margin-top: 0;
 }
 .section3>.container1>.box2>.col1{
-    height: 80%;
+    flex-basis: 60%;
+    padding: 0 7%;
 }
 .box2>.col1>h2{
-    margin-top: 5rem;
+    margin-top: 6rem;
     text-align: center;
 }
 .box2>.col1>p{
-    margin-bottom: 4.5rem;
+    margin-top: 3rem;
+    margin-bottom: 7rem;
     font-size: 2rem;
     overflow: scroll;
+    height: 17rem;
+    width: 90%;
+}
+.top-info{
+    margin-top: 4rem;
 }
 #s3{
     font-size: 1.7rem;
+}
+#s4{
+    font-size: 3rem;
+    margin-right: 0;
+}
+.section3>.container1>.box2>.col2{
+    flex-basis: 40%;
 }
 .section3>.container1>.box2>.col2>.point-box{
     bottom: 5.5rem;
     
 }
 .section3>.container1>.box2>.col2>img{
-  height: 28rem;
-  right: -25rem;
+  height: 56%;
+  left: -30%;
   top: 13rem;
 }
 
