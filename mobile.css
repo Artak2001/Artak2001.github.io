@@ -36,7 +36,7 @@ header>.container>a>.btn{
     height: 80vh;
 }
 .background>.img-box>img{
-    max-width: 95vw;
+    max-width: 75vw;
     height: auto;
     margin: auto 0;
     position: relative;
@@ -52,11 +52,6 @@ header>.container>a>.btn{
     width: 6rem;
     flex-direction: row;
 }
-@media only screen and (max-height: 600px){
-.point_box{
-    top: 77vh;
-}
-}
 
 .point{
     margin: 0 0.5rem !important;
@@ -67,6 +62,29 @@ header>.container>a>.btn{
 .bottom-nav>a>.btn{
     font-size: 2rem;
 }
+@media only screen and (min-height: 239px) and (max-height: 360px){
+    .background>.img-box>img{
+        height: 45vh;
+	    align-self: center;
+}
+    header{
+        height: 15vh;
+}
+    .background{
+        height: 85vh;
+}
+    .background>.img-box{
+        height: 71vh;
+}
+    .background>.img-box>p{
+        bottom: 14vh;
+}
+}
+@media only screen and (max-height: 600px){
+.point_box{
+    top: 77vh;
+}}
+
 
 /* mark-list */
 
@@ -119,10 +137,13 @@ header>.container>a>.btn{
 }
 .section2>.col1>img{
     transform: scale(0.8);
+    
 }
 
 /* section3 */
-
+.box1{
+    margin-top: 0;
+}
 .section3>.container1>.box2{
    width: 85vw;
    height: 50rem;
@@ -162,9 +183,10 @@ header>.container>a>.btn{
     
 }
 .section3>.container1>.box2>.col2>img{
-  max-height: 56%;
-  left: -35%;
-  top: 13rem;
+  width: 50vw;
+  height: auto;
+  right: -50%;
+  width: 180%;
 }
 
 /* section4 */
