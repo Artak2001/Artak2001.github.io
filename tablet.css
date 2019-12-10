@@ -46,15 +46,6 @@ header>.container>a>.btn{
     bottom: 12vh;
     font-size: 2.5rem;
 }
-.point_box{
-    right: calc( 50vw - 6rem / 2 ) ;
-    top: 77vh;
-    width: 6rem;
-    flex-direction: row;
-}
-.point{
-    margin: 0 0.5rem !important;
-}
 .bottom-nav>p{
     font-size: 4rem;
 }
@@ -79,6 +70,17 @@ header>.container>a>.btn{
         bottom: 14vh;
 }
 }
+@media only screen and (min-height: 550px){
+    .point_box{
+        right: calc( 50vw - 6rem / 2 ) ;
+        top: 70vh;
+        width: 6rem;
+        flex-direction: row;
+    }
+    
+    .point{
+        margin: 0 0.5rem !important;
+    }}
 
 /* mark-list */
 

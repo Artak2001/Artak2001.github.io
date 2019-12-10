@@ -46,16 +46,7 @@ header>.container>a>.btn{
     bottom: 12vh;
     font-size: 2.5rem;
 }
-.point_box{
-    right: calc( 50vw - 6rem / 2 ) ;
-    top: 70vh;
-    width: 6rem;
-    flex-direction: row;
-}
 
-.point{
-    margin: 0 0.5rem !important;
-}
 .bottom-nav>p{
     font-size: 4rem;
 }
@@ -80,11 +71,17 @@ header>.container>a>.btn{
         bottom: 14vh;
 }
 }
-@media only screen and (max-height: 600px){
+@media only screen and (min-height: 601px){
 .point_box{
-    top: 77vh;
-}}
+    right: calc( 50vw - 6rem / 2 ) ;
+    top: 70vh;
+    width: 6rem;
+    flex-direction: row;
+}
 
+.point{
+    margin: 0 0.5rem !important;
+}}
 
 /* mark-list */
 
@@ -102,7 +99,7 @@ header>.container>a>.btn{
 /* section1 */
 
 .section1>.car{
-    width: 100vw;
+    width: 100%;
 }
 .section1>.car>span{
     display: none;
@@ -114,7 +111,7 @@ header>.container>a>.btn{
 .section1>.info{
 	padding: 0;
 	padding-top: 3rem;
-    width: 100vw;
+    width: 100%;
     text-align: center;
 }
 .section1>.info>p{

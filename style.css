@@ -48,6 +48,7 @@ header{
 }
 .container>a{
 	margin: auto 0;
+	font-size: 1.6rem;
 }
 .container>a>.btn{
 	font-size: 1.6rem;
@@ -70,6 +71,8 @@ header>a{
 }
 header>a>img{
 	width: 7rem;
+	margin: 3vh 0;
+	box-sizing: border-box;
 }
 
 .btn:hover{
@@ -515,7 +518,7 @@ header>a>img{
 
 .section4>a>.btn{
 	position: absolute;
-	top: 45rem;
+	top: 43.5rem;
 	width: 23.5rem;
 	background: #135dc5;
 	color: white;

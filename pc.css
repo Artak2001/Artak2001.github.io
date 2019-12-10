@@ -5,7 +5,7 @@
 /* basic */
 
 html{
-   font-size: 7.7px;
+   font-size: 7px;
 }
 /* header */
 
@@ -13,9 +13,6 @@ header{
 	position: relative;
     padding: 0;
     height: 12vh;
-}
-.container{
-    width: 70%;
 }
 
 /* background */
