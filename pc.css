@@ -58,3 +58,16 @@ header{
         bottom: 14vh;
 }
 }
+.section1{
+    display: block;
+    height: auto;
+    overflow: auto;
+    padding: 10rem 0;
+}
+.car{
+    float: left;
+}
+.info{
+    float: right;
+    padding: 0%;
+}

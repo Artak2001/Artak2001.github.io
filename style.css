@@ -64,6 +64,7 @@ header{
 }
 .box>p>a:hover{
 	color: white;
+	text-decoration: underline;
 }
 header>a{
 	margin-left: 3vw;
@@ -261,12 +262,15 @@ header>a>img{
 }
 /*section2*/
 .section2{
+	height: 65rem;
 	margin-bottom: 14rem;
+	background: #135ec5;
+	background: linear-gradient(to bottom, rgba(19,92,195,1) 0%, rgba(19,92,195,1) 58%, rgba(255,255,255,1) 100%);
 }
 .section2>.col1{
-	height: 55rem;
+	
 	width: 100%;
-	background: #135ec5;
+	
 	text-align: center;
 	/*display: flex;
 	flex-direction: column;
@@ -280,16 +284,48 @@ header>a>img{
 }
 .section2>.col1>a>.btn{
 	color: white;
+	position: relative;
 	background: none;
 	border: 0.3rem solid white;
 	padding: 0;
+	z-index: 3;
 	font-size: 2rem;
 	padding: 0.7em 1em;	
 }
+.section2>.col1>a>.btn::after {
+	content: '';
+	width: 3rem;
+	height: 3rem;
+	border-radius: 100%;
+	border: 0.6rem solid rgb(107, 166, 255);
+	position: absolute;
+	z-index: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: ring 1.5s infinite linear;
+  }
 .section2>.col1>a>.btn:hover{
 	color: #CACACA;
 	border: 0.3rem solid #CACACA;
 }
+.section2>.col1>a>.btn:hover::after , .section2>.col1>a>.btn:hover::after{
+	animation: none;
+	display: none;
+}
+  @keyframes ring {
+	0% {
+	  width: 1rem;
+	  height: 1rem;
+	  opacity: 1;
+	}
+	100% {
+	  width: 12rem;
+	  height: 12rem;
+	  opacity: 0;
+	}
+  }
+
 .section2>.col1>h2{
 	margin-top: 13rem;
 	margin-bottom: 0rem;
