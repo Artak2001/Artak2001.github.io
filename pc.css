@@ -59,7 +59,7 @@ header{
 }
 }
 .section1{
-    display: block;
+    display: flex;
     height: auto;
     overflow: auto;
     padding: 10rem 0;
