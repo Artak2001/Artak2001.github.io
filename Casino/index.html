@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <span class="balance"></span>
+    <span class="reward"></span>
+    <span class="bet">0$</span>
+    <span class="bank"></span>
+    <input class="range" type="range" minlength="1" maxlength="100" onchange="range_change(this)">
+    <ul>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+        <li class="slot" class="active">0</li>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+    </ul>
+    <button onclick="click_button()">Spin</button>
+    <script src="script.js"></script>
+</body>
+</html>
