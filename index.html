@@ -1,107 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
-	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
-	<link rel="stylesheet" type="text/css" href="Normalize.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" media="only screen and (min-width: 320px) and (max-width: 480px)" href="mobile.css">
-	<link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 700px)" href="tablet.css">
-	<link rel="stylesheet" media="only screen and (min-width: 701px) and (max-width: 1000px)" href="tabletpro.css">
-	<link rel="stylesheet" media="only screen and (min-width: 1001px) and (max-width: 1300px)" href="laptop.css">
-	<link rel="stylesheet" media="only screen and (min-width: 1301px) and (max-width: 1600px)" href="pc.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Magnum</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
-			<a><img src="Pictures\Logo.png" alt="Logo"></a>
-			<div class="container">
-				<div class="box">
-					<img src="Pictures\mail.png" alt="mail">
-					<p><a href="https://www.google.com">contact@furie.com</a></p>
-				</div>
-				<div class="box">
-					<img src="Pictures\Phone.png" alt="tell">
-					<p><a href="https://www.google.com">+48 605 320 091</a></p>
-				</div>
-				<a href="https://www.google.com"><div class="btn">
-					<span>log in</span>
-				</div></a>
-			</div>
-	</header>
-	<div class="background">
-		<div class="img-box">
-			<img style="transform: scale(0.8);" src="Pictures\mainx.png" alt="aaa">
-			<p>Car buying made simple</p>
-			<div class="point_box">
-				<div class="point"></div>
-				<div class="point" style="background: #135ec5; opacity: 1;"></div>
-				<div class="point"></div>
-			</div>
-		</div>
-		
-		<div class="bottom-nav">
-			<p>Make</p>
-			<p>Model</p>
-			<p>City</p>
-			<a href="https://www.google.com"><div class="btn"><span>SEARCH</span></div></a>
-		</div>
-	</div>
-	<div class="mark-list">
-		<h3>Take your best</h3>
-		<div class="list">
-			<div class="mark-box"><a href="mazda.html"><img  src="Pictures\mazda.png" alt="mazda"></a></div>
-				<div class="mark-box"><a href="hyundai.html"><img src="Pictures\hyundai.png" alt="hyundai"></a></div>
-				<div class="mark-box"><a href="bmw.html"><img src="Pictures\bmw.png" alt="bmw"></a></div>
-				<div class="mark-box"><a href="lexus.html"><img src="Pictures\lexus.png" alt="lexus"></a></div>
-				<div class="mark-box"><a href="lambo.html"><img src="Pictures\lambo.png" alt="lambo"></a></div>
-				<div class="mark-box"><a href="mercedes.html"><img src="Pictures\mercedes.png" alt="mercedes"></a></div>
-				<div class="mark-box"><a href="honda.html"><img src="Pictures\honda.png" alt="honda"></a></div>
-				<div class="mark-box"><a href="porsche.html"><img src="Pictures\porsche.png" alt="porsche"></a></div>
-		</div>
-	</div>
-		<hr>
-	<section class="section4" style="margin-top: 200px;">
-		<div class="background"></div>
-		<form action="" class="f1">
-			<input type="text" placeholder="Make">
-			<input type="text" value="Warsaw, Poland." style="color: black">
-			<input type="text" placeholder="Category">
-			<input type="text" placeholder="Keywords">
-		</form>
-		<hr>
-		<div class="marklist">
-			<div class="list">
-				<div class="mark-box"><a href="#"><img  src="Pictures\mazda.png" alt="mazda"></a></div>
-				<div class="mark-box"><a href="#"><img src="Pictures\hyundai.png" alt="hyundai"></a></div>
-				<div class="mark-box"><a href="#"><img src="Pictures\bmw.png" alt="bmw"></a></div>
-				<div class="mark-box"><a href="#"><img src="Pictures\lexus.png" alt="lexus"></a></div>
-				<div class="mark-box"><a href="#"><img src="Pictures\lambo.png" alt="lambo"></a></div>
-				<div class="mark-box"><a href="#"><img src="Pictures\mercedes.png" alt="mercedes"></a></div>
-				<div class="mark-box"><a href="#"><img src="Pictures\honda.png" alt="honda"></a></div>
-				<div class="mark-box"><a href="#"><img src="Pictures\porsche.png" alt="porsche"></a></div>
-		</div>
-		</div>
-		<form action="" class="f2">
-			<input type="text" placeholder="Price From">
-			<input type="text" placeholder="To">
-			<input type="text" placeholder="Years From">
-			<input type="text" placeholder="To">
-		</form>
-		<a href="">
-			<div class="btn"><span>hide advanced search</span></div>
-		</a>
-		<form action="" class="f3">
-			<input type="text" class="input" value="Transmission" style="color: white;">
-			<input type="text" class="input" placeholder="Fuezzye">
-			<input type="text" class="input" placeholder="Drive Type">
-			<input type="text" class="input" placeholder="Cyllinders">
-			<input type="text" class="input" placeholder="Power">
-			<input type="text" class="input" placeholder="Engine size">
-			<input type="text" class="input" placeholder="Towing">
-			<input type="text" class="input" placeholder="Induction\turbo">
-			<input type="submit" class="btn" value="search" name="">
-		</form>
-	</section>
-</div>
+    <span style="position: absolute; left: 25rem; top: 1rem;">Casino</span>
+    <span style="position: absolute; left: 12rem; top: 1rem;">Bet</span>
+    <span style="position: absolute; top: 1rem;">Balance</span>
+
+    <span class="balance"></span>
+    <span class="reward"></span>
+    <span class="bet">0$</span>
+    <span class="bank"></span>
+    <input class="range" type="range" minlength="1" maxlength="100" onchange="range_change(this)">
+    <ul>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+        <li class="slot">0</li>
+    </ul>
+    <button onclick="click_button()">Spin</button>
+    <script src="script.js"></script>
 </body>
 </html>
