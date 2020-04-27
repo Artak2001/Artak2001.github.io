@@ -11,6 +11,10 @@ range.value = parseInt( bet.textContent );
 function range_change(e){
     bet.textContent = e.value + "$";
     
+    for (let i = 0; i < slot.length; i++) {
+        slot[i].classList.remove("active");
+    }
+
     for (let i = 0; i <slot.length; i++) {
         slot[i].textContent = Math.floor( parseInt( bet.textContent ) * Math.random());
     }
@@ -21,7 +25,6 @@ function click_button(){
     console.log(length);
     for (let i = 0; i < slot.length; i++) {
         slot[i].classList.remove("active");
-        
     }
     slot[length].classList.toggle("active");
     
