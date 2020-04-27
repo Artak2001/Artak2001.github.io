@@ -15,17 +15,18 @@ function range_change(e){
         slot[i].textContent = Math.floor( parseInt( bet.textContent ) * Math.random());
     }
 }
+
 function click_button(){
     let length = Math.floor(Math.random() * slot.length );
     console.log(length);
-    
-    // console.log( slot[length].textContent );
+    for (let i = 0; i < slot.length; i++) {
+        slot[i].classList.remove("active");
+        
+    }
+    slot[length].classList.toggle("active");
     
     reward.textContent = -parseInt(bet.textContent) + parseInt(slot[length].textContent ) + "$";
     balance.textContent = parseInt( balance.textContent ) + parseInt(reward.textContent) + "$";
     bank.textContent = parseInt(bank.textContent) + parseInt(reward.textContent) * -1 + "$"  ;  
-    
-    // console.log(slot[length].textContent);
-    
     
 }
